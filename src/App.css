@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Gotu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    background-color: #ebeaea;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+  background-color: white;
+  color: #e0572d;
+  font-size: 1.5vw;
+  text-decoration: none;
+  border-radius: 3px;
+  border: #e0572d solid 1px;
+}
+.btn:hover{
+  opacity: 0.5;
+}
+
+.mainContainer{
+  margin-top: 5vh;
+  background-color: white;
+  width: 100%;
+  width: 50vw;
+  min-height: 50vh;
+  border: #e0572d solid 1px;
+}
+
+.main-header{
+  height: 5vh;
+  background-color: #e0572d;
+  flex-direction: row;
+  justify-content: space-around;
+  display: flex;
+}
+
+.newItem{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.genre{
+  margin-left: 10%;
+}
+
+.btn-input{
+  font-size: 1.1vw;
+}
+
+.newItem input{
+  max-width: 5.5vw;
+}
+
+td, th{
+  border: 1px solid black;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+table span svg{
+  color: red;
+}
+
+table svg{
+  margin-left: 5px;
+}
+
+table svg:hover{
+  opacity: 0.6;
+}
+
+table{
+  width: 100%;
+}
+
+.content-newitem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50vw;
+}
